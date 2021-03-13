@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="enviar.php" method="POST">
+
+        <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" placeholder="Digite su nombre" maxlength="50" name="nombre" id="nombre">
+
+        <label for="email">Ingrese su email:</label>
+        <input type="email" placeholder="Digite su email" maxlength="50" name="email" id="email">
+        <br>
+        <br>
+        <label for="mensaje">Ingrese su mensaje:</label>
+        <textarea name="mensaje" id="mensaje" ></textarea>
+        <br>
+        <br>
+        <input type="submit" name="submit">
+        <button>Cancelar</button>
+    </form>
+
+</body>
+</html>
