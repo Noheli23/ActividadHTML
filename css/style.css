@@ -67,7 +67,7 @@ table{
     width: 20%;
     font-family:'Montserrat', sans-serif; 
   }
-  button{
+  button {
     background-color: #0a8b56;
     color: white;
     padding: 12px 20px;
@@ -75,12 +75,15 @@ table{
     border-radius: 4px;
     margin: 10px  5px  10px;
     margin-left: 10%;
-    
     width: 20%;
     font-family:'Montserrat', sans-serif; 
   }
   
   input[type=submit]:hover {
+    background-color: #34a174;
+  }
+  
+   button:hover{
     background-color: #34a174;
   }
   
@@ -105,7 +108,7 @@ table{
     margin-top: 6px;
   }
   
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
